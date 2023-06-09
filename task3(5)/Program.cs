@@ -6,5 +6,5 @@ string? number = Console.ReadLine();
 int n = Convert.ToInt32(number);
 
 for (int i = -n; i <= n; i++){
-Console.WriteLine(i);
+Console.Write(i );
 }
